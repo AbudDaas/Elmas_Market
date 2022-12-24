@@ -1,43 +1,27 @@
 <template>
-
   <div id="app">
-    <header>MENU</header>
-  </div>
-
-  <p>Welcome to elmasmarket</p>
-  <div class="cards">
-    <FlipCard front="Hi" back="Hello" />
-    <FlipCard front="Merhaba" back="Nasilsin?"  />
-    <div class="flipcard">
-      <FlipCard front="popkek" back="fiat:5"  />
-      <ul><img src="./assets/popkek.png" alt=""></ul>
+    <div id="header">
+      <HeaderView />
     </div>
-    
+    <div id="center">
+      <CenterView />
+    </div>
+    <div id="footer">
+      <FooterView />
+    </div>
   </div>
 </template>
 
 <script>
-import FlipCard from "./components/FlipCard.vue";
-
+import CenterView from "./views/CenterView.vue";
+import FooterView from "./views/FooterView.vue";
+import HeaderView from "./views/HeaderView.vue";
 export default {
+  components: { FooterView, CenterView, HeaderView },
   name: "App",
-  components: {
-    FlipCard,
-    data() {
-      return {
-        productes: [
-          {
-            name: "popkek",
-            Image:"./assets/popkek.png"
-          }
-        ]
-      }
-    },
-
-  },
 };
 </script>
 
 <style>
-@import "./css/App.css";
+@import "./style/css/App.css";
 </style>

@@ -1,29 +1,25 @@
-<template lang="html">
-    <head></head>
+<template>
     <div class="sidebar">
-        <header>MENU</header>
+        <h1>MENU</h1>
         <ul>
-            <li><a href="#"><i class="fas fa-qrcode"></i></a></li>
-            <li><a href="#"><i class="fas fa-link"></i></a></li>
+            <li><a href="#"><font-awesome-icon icon="fa-solid fa-qrcode fa-xl" /></a></li>
+            <!-- <li><a href="#"><i class="fas fa-link"></i></a></li>
             <li><a href="#"><i class="fas fa-stream"></i></a></li>
             <li><a href="#"><i class="fas fa-calender-week"></i></a></li>
             <li><a href="#"><i class="fas fa-sliders-h"></i></a></li>
             <li><a href="#"><i class="fas fa-envelope"></i></a></li>
             <li><a href="#"><i class="fas fa-cart-arrow-down"></i></a></li>
-            <li><a href="#"><i class="far fa-question-circle"></i></a></li>
-        
+            <li><a href="#"><i class="far fa-question-circle"></i></a></li> -->
         </ul>
     </div>
 </template>
 <script>
 
 export default {
-    name:"app"
-    
+    name:"MineBar",
 
 }
-import "../"
 </script >
 <style lang="css">
-    @import "./css/Minebar.css"
+    @import "../style/css/MineBar.css";
 </style>
