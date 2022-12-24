@@ -2,6 +2,9 @@
 dist
 node_modules
 
+# JSON
+package-lock.json
+
 # Logs
 logs
 *.log
