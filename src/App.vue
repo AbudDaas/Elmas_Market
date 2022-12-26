@@ -12,6 +12,7 @@
   </div>
 </template>
 
+
 <script>
 import CenterView from "./views/CenterView.vue";
 import FooterView from "./views/FooterView.vue";
