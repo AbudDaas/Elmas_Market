@@ -5,7 +5,7 @@
     </div>
 </template>
 <script>
-import MineBar from '../components/MineBar.vue';
+import MineBar from '../components/Minebar.vue';
 
 export default {
     name: "CenterView",
