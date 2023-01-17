@@ -6,7 +6,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import {faQrcode, faLink, faStream } from "@fortawesome/free-solid-svg-icons";
 import mitt from "mitt";
 
-library.add(faQrcode, faLink, faStream);
+library.add(faQrcode, faLink, faStream );
 
 const emitter = mitt();
 

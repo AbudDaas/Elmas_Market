@@ -18,7 +18,7 @@ import CenterView from "./views/CenterView.vue";
 import FooterView from "./views/FooterView.vue";
 import HeaderView from "./views/HeaderView.vue";
 export default {
-  components: { FooterView, CenterView, HeaderView },
+  components: { FooterView, CenterView, HeaderView, },
   name: "App",
 };
 </script>
