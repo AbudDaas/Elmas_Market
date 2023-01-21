@@ -1,14 +1,15 @@
 <template>
     <div class="sidebar">
         <ul>
-            <li><a href="#"><font-awesome-icon icon="fa-solid fa-qrcode fa-xl" /></a></li>
-            <li><a href="#"><font-awesome-icon class="fa-link" /></a></li>
-            <li><a href="#"><i class="fas fa-stream"></i></a></li>
-            <li><a href="#"><i class="fas fa-calender-week"></i></a></li>
-            <li><a href="#"><i class="fas fa-sliders-h"></i></a></li>
-            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-            <li><a href="#"><i class="fas fa-cart-arrow-down"></i></a></li>
-            <li><a href="#"><i class="far fa-question-circle"></i></a></li> 
+            <a href="#"><font-awesome-icon icon="fa-solid fa-bars" />NEW</a>
+            <a href="#"><font-awesome-icon icon="fa-solid fa-link" />HOME</a>
+            <a href="#"><font-awesome-icon class="fa-solid fa-stream"/>CANNED FOOD</a>
+            <a href="#"><font-awesome-icon class="fa-solid fa-calender-week" />HOME FOOD</a>
+            <a href="#"><font-awesome-icon class="fa-solid fa-sliders-h"/>ELECTRICAL MATERIALS</a>
+            <a href="#"><font-awesome-icon class="fa-solid fa-envelope"/>HOME MATERIALS</a>
+            <a href="#"><font-awesome-icon class="fa-solid fa-cart-arrow-down"/>DRINKS</a>
+            <a href="#"><font-awesome-icon class="fa-solid fa-question-circle"/>SNACKS</a> 
+            <a href="#"><font-awesome-icon class="fa-solid fa-question-circle"/>OTHER</a>
         </ul>
     </div>
 </template>

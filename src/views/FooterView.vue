@@ -1,9 +1,19 @@
 <template>
-    <div>
-        Footer
+    <div class="footer">
+        <div id="contactus">
+            do you can call:
+            
+        </div>
+        <div id="location" >
+            location
+        </div>
+        <div id="aboutus" >
+            about us
+        </div>
     </div>
 </template>
 <script>
+
 export default {
     name:"FooterView",
 }

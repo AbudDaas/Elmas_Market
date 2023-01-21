@@ -7,11 +7,12 @@
             <div id="search">
                 <form action="">
                     <input type="text" placeholder="search here">
+                    <MineBar></MineBar>
                 </form>
             </div>
         </div>
-        <div id="mine-bar">
-            <MineBar></MineBar>
+        <div class="mine-bar">
+            
 
         </div>
     </div>

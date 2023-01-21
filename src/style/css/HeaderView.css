@@ -3,6 +3,9 @@
     width: 100%;
     height: 20%;
     background-color: aqua;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
 #logo{
     width: 10%;
@@ -18,18 +21,25 @@
 }
 
 .mine{
-    width: 90%;
+    width: 100%;
     height: 20%;
     border-width: 1px;
     border-color: black;
     border-style: solid;
-    margin-left:auto ;
-    margin-right: auto;
+
 }
 #search form input{
-    width: 50%;
+    width: 90%;
     height: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right:5%;
+}
+#MineBar{
+    width: 90%;
+    margin: 10%;
+    border-radius: 1px;
+    border-style: inset;
+    border-color: black;
 }
 

@@ -5,7 +5,7 @@
   <transition name="flip">
     <p v-bind:key="flipped" class="card">
       {{ flipped ? back : front }}
-
+       
     </p>
   </transition>
 </div>

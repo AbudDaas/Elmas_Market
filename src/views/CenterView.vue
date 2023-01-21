@@ -1,14 +1,21 @@
-<template>
+<template lang="html">
     <div class="main">
-        Center
+        center
+        
     </div>
 </template>
-<script>
+<script lang="js">
+
+
 
 
 export default {
     name: "CenterView",
+    components: {
+    
+}
 }
 </script>
 <style>
+
 </style>
