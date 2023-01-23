@@ -1,19 +1,13 @@
-<template lang="html">
-    <div class="main">
-        center
-        
+<template>
+    <div class="product">
+        <div id="product_place">
+            <p>do you can see a lote of product</p>
+        </div>
     </div>
 </template>
-<script lang="js">
-
-
-
-
+<script>
 export default {
     name: "CenterView",
-    components: {
-    
-}
 }
 </script>
 <style>

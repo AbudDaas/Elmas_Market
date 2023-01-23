@@ -1,8 +1,28 @@
-.main{
+#product{
     width: 100%;
-    height: 100%;
+    height: 60%;
     background-color: blue;
     border-width: 1px;
     border-color: black;
     border-style: solid;
+}
+#product_place{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+.product_place p{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
 }
