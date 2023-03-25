@@ -5,7 +5,7 @@
         </div>
         <div class="mine">
             <div id="search">
-                <form action="">
+                <form >
                     <input type="text" placeholder="search here">
                     <MineBar></MineBar>
                 </form>
