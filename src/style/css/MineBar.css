@@ -3,23 +3,23 @@ ul{
 }
 .sidebar{
     display: flex;
-    padding: 20px 0;
+    padding:1% 5% 0;
 }
 .links{
    width: 100%;
-   padding: 0 15px;
+   padding: 0 1%;
 }
 .links ul :not(:last-child){
-	margin-bottom: 10px;
+	margin-bottom: 1%;
 }
 .links ul a{
-    width: 70px;
-	font-size: 16px;
+    width: 6%;
+	font-size: 100%;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 500;
-	color: #bbbbbb;
+	color: #000000;
     margin-right: 50px;
 	display: block;
 	transition: all 0.3s ease;
@@ -30,19 +30,19 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
-    margin-right: 10px;
+	color: #fdfdfd;
+    margin-right: 0%;
 	display: flex;
 	transition: all 0.3s ease;
 }
 .links ul  a:hover{
-	color: #ffffff;
+	color: #ff7700;
 	padding-left: 8px;
 }
 .links .social-links a{
 	display: inline-block;
-	height: 40px;
-	width: 40px;
+	height: 10%;
+	width: 8%;
 	background-color: rgba(255,255,255,0.2);
 	margin:0 10px 10px 0;
 	text-align: center;

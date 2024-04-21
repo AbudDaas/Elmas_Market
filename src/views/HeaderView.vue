@@ -1,14 +1,22 @@
 <template>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <div class="headerview">
         <div id="logo">
-            <img src="../assets/logo.jpeg" alt="logo">
+            <img src="" alt="myshoop.com">
         </div>
         <div class="mine">
-            <div id="search">
-                <form >
-                    <input type="text" placeholder="search here">
-                    <MineBar></MineBar>
-                </form>
+            <div class="hedar">
+                <div id="up">
+                    <div id="search-container">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <button id="search-button"><i class="fa fa-search"></i></button>
+                    </div>
+                    <div id="user">
+                        <a href="">giris yap</a>
+                        <a href="">uye ol</a>
+                    </div>
+                </div>
+                <MineBar></MineBar>
             </div>
         </div>
         <div class="mine-bar">
@@ -26,4 +34,5 @@ export default {
 </script>
 <style>
 @import "../style/css/HeaderView.css";
+
 </style>
