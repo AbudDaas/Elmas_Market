@@ -77,7 +77,7 @@ module.exports = {
       filename: "index.html",
       template: "public/template.html",
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
     // add vue-loader plugin
     new VueLoaderPlugin(),
     /**
