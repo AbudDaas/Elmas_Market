@@ -1,18 +1,25 @@
 .headerview{
     display: flex;
     width: 100%;
-    height: 20%;
-    background-color: rgba(255, 255, 255, 0.575);
+    height: 100%;
+    background-color: rgba(237, 15, 15, 0.575);
 
 }
 #logo{
-    width: 10%;
+    width: 100px;
     height: 20%;
+    font-size: 30px;
+    margin: 0 auto;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 24px;
 }
 
-#logo img{
+#logo a{
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .mine{
@@ -32,7 +39,7 @@
 #search-container {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 30%;
     max-width: 600px; 
     margin: 0 auto; 
     background-color: #f9f9f9;
@@ -46,7 +53,7 @@
     border: none;
     outline: none;
     padding: 8px;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 25px;
 }
 
@@ -59,22 +66,59 @@
 #search-button i {
     color: #555151;
 }
+* {
+    box-sizing: border-box;
+}
+form.example button {
+    float: left;
+    width: 1%;
+    padding: 7px;
+    background: #2196F3;
+    color: rgb(255, 0, 0);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 95%;
+    background: #f1f1f1;
+}
+form.example button:hover {
+    background: #008cff;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 #user a{
-    width:100%;
+    width:20%;
 	height: 20%;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 500;
 	color: #000000;
-    margin-right: 50px;
+    margin-right: 10%;
 	display: inline-block;
 	transition: all 0.3s ease;
 	padding-right:2%;
 
 }
+
+
+
+
 #user{
+    width: 30%;
     font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -86,8 +130,8 @@
 	transition: all 0.3s ease;
 }
 #user  a:hover{
-	color: #ff7700;
-	padding-left: 8px;
+	color: #0400ff;
+	padding-left: 1px;
 }
 #user .social-links a{
 	display: inline-block;
