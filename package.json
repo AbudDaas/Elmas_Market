@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
