@@ -1,6 +1,20 @@
-# Elmas_Market
-Online Store
+# Elmas Marker
 
-## Design
 
-![design](./imgs/website.drawio.png)
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```

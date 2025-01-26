@@ -1,28 +1,31 @@
-<template>
-  <div id="app">
-    <div id="header">
-      <HeaderView />
-    </div>
-    <div id="center">
-      <CenterView />
-    </div>
-    <div id="footer">
-      <FooterView />
-    </div>
+<template lang="html">
+  <div>
+    <HeaderView/>
+    <!-- <CT :cart="cart" @removeItem="removeItem" /> -->
+    
   </div>
 </template>
 
-
 <script>
-import CenterView from "./views/CenterView.vue";
-import FooterView from "./views/FooterView.vue";
-import HeaderView from "./views/HeaderView.vue";
+import HeaderView from './views/HeaderView.vue';
+
+
+
+
 export default {
-  components: { FooterView, CenterView, HeaderView, },
-  name: "App",
+  components: {HeaderView, },
+  data() {
+    return {
+      cart: []
+    };
+  },
+  methods: {
+    addToCart(product) {
+      this.cart.push(product);
+    },
+    removeItem(index) {
+      this.cart.splice(index, 1);
+    }
+  }
 };
 </script>
-
-<style>
-@import "./style/css/App.css";
-</style>
