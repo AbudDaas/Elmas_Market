@@ -1,0 +1,97 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__link {
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    text-decoration: none; 
+    color: #000; 
+    font-size: 16px; 
+}
+
+  /* Header Styles */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0.5%;
+    background-color: rgba(237, 15, 15, 0.8);
+    color: #fff;
+  }
+  
+  .header__logo {
+    font-size: 190%;
+    font-weight: bold;
+    min-width: 40%;
+  }
+  
+  .header__logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 100%; 
+  }
+  
+  /* Search Section */
+  .header__search {
+    flex: 1;
+    margin: 0 0;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1% solid #ddd;
+    border-radius: 25px;
+    padding: 1%;
+    min-width: 10%; 
+  }
+  
+  .search-form__input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 1%;
+    font-size: 90%;
+    border-radius: 25px;
+    background: none;
+    min-width: 40%; 
+  }
+  
+  .search-form__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    min-width: 10%;
+    color: black;
+    
+  }
+  
+  
+  /* Navigation Styles */
+  .header__nav {
+    display: flex;
+    gap: 5%;
+    min-width: 30%;
+    justify-content: flex-end;
+  }
+  
+  .header__link {
+    font-size: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    transition: color 0.3s ease;
+    min-width: 10%; 
+  }
+  
+  .header__link:hover {
+    color: #21f344;
+  }
