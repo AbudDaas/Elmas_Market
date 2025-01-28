@@ -13,6 +13,7 @@ import HeaderView from './views/HeaderView.vue';
 
 
 export default {
+  name:'App',
   components: {HeaderView, },
   data() {
     return {
